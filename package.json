@@ -12,10 +12,17 @@
   },
   "main": "index.js",
   "version": "1.0.1",
-  "license": "MIT",
+  "scripts": {
+    "test": "tape ./test | faucet"
+  },
   "dependencies": {
     "hyperquest": "2.1.2",
     "leveldb-mount": "4.0.4",
     "server-base-log": "4.0.18"
-  }
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "4.6.3"
+  },
+  "license": "MIT"
 }
