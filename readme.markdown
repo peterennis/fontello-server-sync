@@ -17,7 +17,10 @@ This file is also synced from `fontello-server`.
 
 ### `index.html`
 
-To sync this file you need to specify the environment variable `FONTELLO_HTML_PATH`.
+To sync this file you need to specify the following environment variables.
+
+* `FONTELLO_HTML_PATH` path to `index.html`
+* `FONTELLO_WS_URL` url including user and password to fontello ws (repl).
 
 # usage
 
