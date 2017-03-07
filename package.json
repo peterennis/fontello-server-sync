@@ -1,0 +1,21 @@
+{
+  "name": "fontello-server-sync",
+  "description": "fontello-server sync of config",
+  "keywords": "fontello fontello-server sync",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jameskyburz/fontello-server-sync.git"
+  },
+  "author": {
+    "name": "James Kyburz",
+    "email": "james.kyburz@gmail.com"
+  },
+  "main": "index.js",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "hyperquest": "2.1.2",
+    "leveldb-mount": "4.0.4",
+    "server-base-log": "4.0.18"
+  }
+}
