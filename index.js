@@ -73,7 +73,7 @@ function persistConfig (value) {
 function persistHtml (hash, value) {
   fs.readFile(htmlPath, 'utf8', (err, html) => {
     if (err) throw err
-    const text = html.replace(/[^/]{40}(\/fontello)/g, `${hash}$1`)
+    const text = html.replace(/[a-z0-9]{40}(\/fontello)/g, `${hash}$1`)
     log.debug(`replace text ${text}`)
     fs.writeFile(htmlPath, text, (err) => {
       if (err) throw err
