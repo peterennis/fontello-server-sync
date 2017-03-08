@@ -4,10 +4,5 @@ node_js:
   - "6"
 services:
   - docker
-before_install:
-  - docker pull jameskyburz/fontello-server:6.9-alpine
-  - docker run -d --name fontello-server -e DB_REPL_PORT=2016 -p 2016:2016 jameskyburz/fontello-server:6.9-alpine
 script:
   - npm t
-after_success:
-  - docker kill fontello-server
