@@ -1,5 +1,7 @@
 # fontello-server-sync
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/fontello-server-sync.svg)](https://greenkeeper.io/)
+
 Sync project with running [fontello-server](https://npm.im/fontello-server).
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
