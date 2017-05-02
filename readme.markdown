@@ -1,14 +1,12 @@
 # fontello-server-sync
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/fontello-server-sync.svg)](https://greenkeeper.io/)
-
 Sync project with running [fontello-server](https://npm.im/fontello-server).
 
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-
+[![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/feross/standard)
 [![build status](https://api.travis-ci.org/JamesKyburz/fontello-server-sync.svg)](https://travis-ci.org/JamesKyburz/fontello-server-sync)
 [![npm](https://img.shields.io/npm/v/fontello-server-sync.svg)](https://npmjs.org/package/fontello-server-sync)
 [![downloads](https://img.shields.io/npm/dm/fontello-server-sync.svg)](https://npmjs.org/package/fontello-server-sync)
+[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/fontello-server-sync.svg)](https://greenkeeper.io/)
 
 To sync the following environment variables need to be specified.
 
