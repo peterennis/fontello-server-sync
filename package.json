@@ -11,7 +11,7 @@
     "email": "james.kyburz@gmail.com"
   },
   "main": "index.js",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "scripts": {
     "pretest": "docker pull jameskyburz/fontello-server:6.9-alpine && docker run -d --name fontello-server-test -e DB_REPL_PORT=2016 -p 2016:2016 jameskyburz/fontello-server:6.9-alpine",
     "test": "tape ./test | faucet",
