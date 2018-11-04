@@ -20,7 +20,7 @@
   "dependencies": {
     "hyperquest": "2.1.3",
     "leveldb-mount": "4.1.10",
-    "server-base-log": "6.0.0"
+    "server-base-log": "6.1.0"
   },
   "devDependencies": {
     "faucet": "0.0.1",
